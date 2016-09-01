@@ -1,0 +1,24 @@
+Test#	Desc					
+False	Win%	Winning percentage (Wins/Total Trades)	0.0%	Desc		0
+False	Trades	Total executed trades	#,##0	Desc		0
+False	Wins	Total number of winning trades (profit per unit > 0)	#,##0	Desc		0
+False	Losses	Total number of losing trades (profit per unit <= 0)	#,##0	Ascend		0
+False	Payout	Profit to Loss ratio (Avg Profit / Avg Loss)	0.00	Desc		0
+False	Avg Win	Average winning trade	$#,##0	Desc		0
+False	Return%	Return on equity percentage	0.0%	Desc		0
+False	Avg Loss	Average losing trade	$#,##0;($#,##0)	Ascend		0
+False	Large Win	Largest winning trade	$#,##0	Desc		0
+False	Large Loss	Largest losing trade	$#,##0;($#,##0)	Ascend		0
+True	CW	Maximum consecutive wins that occured during test	#,##0	Desc		0
+True	CL	Maximum consecutive losses that occured during test	#,##0	Ascend		0
+True	Avg CW	Average consecutive winning trades	#,##0.00	Desc		0
+True	Avg CL	Average consecutive losing trades	#,##0.00	Ascend		0
+True	Gross Prof	Total Gross profit	$#,##0	Desc		0
+True	Gross Loss	Total Gross loss	$#,##0;($#,##0)	Ascend		0
+False	Net Profit	Total Net profit	$#,##0	Desc		0
+False	Profit Factor	Profit factor	0.00	Desc		0
+False	Avg Trade	Average trade	$#,##0	Desc		0
+True	Avg Bars/Trade	Average bars in trade	0.00	Desc		0
+True	Avg Trades/Yr	Average trades per year	0.0	Desc		0
+False	Max Drawdown	Max Closed-Out Drawdown	$#,##0;($#,##0)	Ascend		0
+True	Max Intra	Max Intra-Trade Drawdown	$#,##0;($#,##0)	Ascend		0
