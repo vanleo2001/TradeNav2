@@ -1,0 +1,394 @@
+========== TABLE FIELDS =============
+0	L	465	SymIndex	INF:SYMINDEX
+1	L	465	DbRecNum	INF:DBRECNUM
+2	L	465	Symbol	INF:SYMBOL
+3	L	465	Symbol ID	INF:SYMBOL ID
+4	L	465	Description	INF:DESCRIPTION
+5	L	465	FirstDate	INF:FIRSTDATE
+6	L	465	LastDate	INF:LASTDATE
+7	T	465	Type	INF:TYPE
+8	T	465	ALL Symbols	GRP:ALL SYMBOLS.GRP
+9	T	465	All FUTURES	GRP:ALL FUTURES.GRP
+10	T	465	All FOREX	GRP:ALL FOREX.GRP
+11	T	465	All INDICES	GRP:ALL INDICES.GRP
+12	T	465	All U.S. STOCKS	GRP:ALL STOCKS.GRP
+13	T	465	All INT'L STOCKS	GRP:ALL INT'L STOCKS.GRP
+14	T	465	All MUTUAL FUNDS	GRP:ALL MUTUAL FUNDS.GRP
+15	T	465	FLAGGED Symbols	GRP:_FLAGS_.GRP
+16	T	465	AMEX	GRP:AMEX.GRP
+17	T	465	Australian Stocks	GRP:AUST.GRP
+18	T	465	Canadian Stocks	GRP:CANADIAN.GRP
+19	T	465	Common Futures	GRP:COMMONFUTURES.GRP
+20	T	465	Continuous 067's	GRP:CONT067.GRP
+21	T	465	Dow 30	GRP:DOW30.GRP
+22	T	465	Dow Composite	GRP:DOWCO.GRP
+23	T	465	Dow Transportation	GRP:DOWTRANS.GRP
+24	T	465	Dow Utilities	GRP:DOWUTIL.GRP
+25	T	465	Electronic Futures	GRP:ELECFUT.GRP
+26	T	465	ETF	GRP:ETF.GRP
+27	T	465	Forex	GRP:FOREX.GRP
+28	T	465	German Stocks	GRP:GERMAN.GRP
+29	T	465	India Stocks	GRP:INDIA.GRP
+30	T	465	Stocks with Leaps	GRP:LEAPS.GRP
+31	T	465	London Stocks	GRP:LONDON.GRP
+32	T	465	Milan Stocks	GRP:MILAN.GRP
+33	T	465	Nasdaq 100	GRP:NAS100.GRP
+34	T	465	Nasdaq Biotech	GRP:NASBIO.GRP
+35	T	465	Nasdaq Composite	GRP:NASCOM.GRP
+36	T	465	NASDAQ	GRP:NASDAQ.GRP
+37	T	465	Nasdaq Financial 100	GRP:NASFIN.GRP
+38	T	465	Nasdaq Insurance	GRP:NASINS.GRP
+39	T	465	Nasdaq Transp.	GRP:NASTRANS.GRP
+40	T	465	NYSE	GRP:NYSE.GRP
+41	T	465	Optionable Indices	GRP:OPTIDX.GRP
+42	T	465	Optionable Stocks	GRP:OPTSTKS.GRP
+43	T	465	Osaka Stocks	GRP:OSAKA.GRP
+44	T	465	Russell 1000	GRP:RUS1000.GRP
+45	T	465	Russell 2000	GRP:RUS2000.GRP
+46	T	465	Russell 3000	GRP:RUS3000.GRP
+47	T	465	Johannesburg Stocks	GRP:SAFRICA.GRP
+48	T	465	Singapore Stocks	GRP:SINGAPOR.GRP
+49	T	465	S&P 100	GRP:SP100.GRP
+50	T	465	S&P 400	GRP:SP400.GRP
+51	T	465	S&P 500	GRP:SP500.GRP
+52	T	465	TS - Symbol Group	GRP:STRID.GRP
+53	T	465	Thailand Stocks	GRP:THAI.GRP
+54	T	465	Tokyo Stocks	GRP:TOKYO.GRP
+55	T	465	TradeSmart Top 10	GRP:TSU10.GRP
+56	T	465	TradeSmart Top 50	GRP:TSU50.GRP
+57	T	465	Warsaw Stocks	GRP:WARSAW.GRP
+58	T	465	WIG 20	GRP:WIG20.GRP
+59	T	465	WIG 40	GRP:WIG40.GRP
+60	T	465	WIG 80	GRP:WIG80.GRP
+61	T	465	Weekly Optionable Stocks	GRP:WOPTSTOC.GRP
+62	F	1	Annual Dividend Rate	DSV:ANNDIV.SCN
+63	T	1	Annual Dividend Rate	DSP:ANNDIV.SCN
+64	F	1	Assets - Current	DSV:ASSETS.SCN
+65	T	1	Assets - Current	DSP:ASSETS.SCN
+66	F	1	Average Volume	DSV:AVGVOL.SCN
+67	T	1	Average Volume	DSP:AVGVOL.SCN
+68	F	1	Balance Sheet Date	DSV:BALSHT.SCN
+69	T	1	Balance Sheet Date	DSP:BALSHT.SCN
+70	F	1	Beta	DSV:BETA.SCN
+71	T	1	Beta	DSP:BETA.SCN
+72	F	1	Book Per Share	DSV:BKPERSHR.SCN
+73	T	1	Book Per Share	DSP:BKPERSHR.SCN
+74	F	1	Common Shares	DSV:CMSHARES.SCN
+75	T	1	Common Shares	DSP:CMSHARES.SCN
+76	F	1	COT Commercials Longs	DSV:COMLONG.SCN
+77	T	1	COT Commercials Longs	DSP:COMLONG.SCN
+78	F	1	COT Commercials Shorts	DSV:COMSHORT.SCN
+79	T	1	COT Commercials Shorts	DSP:COMSHORT.SCN
+80	F	1	Cash and Equivalents	DSV:CSHEQV.SCN
+81	T	1	Cash and Equivalents	DSP:CSHEQV.SCN
+82	F	1	Cash Flow Per Share	DSV:CSHFLWSH.SCN
+83	T	1	Cash Flow Per Share	DSP:CSHFLWSH.SCN
+84	F	1	Cash Per Share	DSV:CSHSH.SCN
+85	T	1	Cash Per Share	DSP:CSHSH.SCN
+86	F	1	Current Ratio	DSV:CURRAT.SCN
+87	T	1	Current Ratio	DSP:CURRAT.SCN
+88	F	1	Total Debt Per Equity	DSV:DEBTPEQ.SCN
+89	T	1	Total Debt Per Equity	DSP:DEBTPEQ.SCN
+90	F	1	Cash Dividends on Common Stock	DSV:DIV.SCN
+91	T	1	Cash Dividends on Common Stock	DSP:DIV.SCN
+92	F	1	Dividend 1Q Ago	DSV:DIV1Q.SCN
+93	T	1	Dividend 1Q Ago	DSP:DIV1Q.SCN
+94	F	1	Dividend 2Q Ago	DSV:DIV2Q.SCN
+95	T	1	Dividend 2Q Ago	DSP:DIV2Q.SCN
+96	F	1	Dividend 3Q Ago	DSV:DIV3Q.SCN
+97	T	1	Dividend 3Q Ago	DSP:DIV3Q.SCN
+98	F	1	Dividend 4Q Ago	DSV:DIV4Q.SCN
+99	T	1	Dividend 4Q Ago	DSP:DIV4Q.SCN
+100	F	1	Dividend Yield	DSV:DIVYIELD.SCN
+101	T	1	Dividend Yield	DSP:DIVYIELD.SCN
+102	F	1	Earnings 1Q Ago	DSV:EARN1Q.SCN
+103	T	1	Earnings 1Q Ago	DSP:EARN1Q.SCN
+104	F	1	Earnings 2Q Ago	DSV:EARN2Q.SCN
+105	T	1	Earnings 2Q Ago	DSP:EARN2Q.SCN
+106	F	1	Earnings 3Q Ago	DSV:EARN3Q.SCN
+107	T	1	Earnings 3Q Ago	DSP:EARN3Q.SCN
+108	F	1	Earnings 4Q Ago	DSV:EARN4Q.SCN
+109	T	1	Earnings 4Q Ago	DSP:EARN4Q.SCN
+110	F	1	Earnings	DSV:EARNINGS.SCN
+111	T	1	Earnings	DSP:EARNINGS.SCN
+112	F	1	EBIT	DSV:EBIT.SCN
+113	T	1	EBIT	DSP:EBIT.SCN
+114	F	1	EBIT 1Q Ago	DSV:EBIT1Q.SCN
+115	T	1	EBIT 1Q Ago	DSP:EBIT1Q.SCN
+116	F	1	EBIT 2Q Ago	DSV:EBIT2Q.SCN
+117	T	1	EBIT 2Q Ago	DSP:EBIT2Q.SCN
+118	F	1	EBIT 3Q Ago	DSV:EBIT3Q.SCN
+119	T	1	EBIT 3Q Ago	DSP:EBIT3Q.SCN
+120	F	1	EBIT 4Q Ago	DSV:EBIT4Q.SCN
+121	T	1	EBIT 4Q Ago	DSP:EBIT4Q.SCN
+122	F	1	Estimated 5 yr earnings growth	DSV:EGE5YR.SCN
+123	T	1	Estimated 5 yr earnings growth	DSP:EGE5YR.SCN
+124	F	1	EPS most recent quarter	DSV:EPS.SCN
+125	T	1	EPS most recent quarter	DSP:EPS.SCN
+126	F	1	EPS 12 Month Change	DSV:EPS12CHG.SCN
+127	T	1	EPS 12 Month Change	DSP:EPS12CHG.SCN
+128	F	1	EPS for last 12 Months	DSV:EPS12MO.SCN
+129	T	1	EPS for last 12 Months	DSP:EPS12MO.SCN
+130	F	1	EPS 1Q Ago	DSV:EPS1Q.SCN
+131	T	1	EPS 1Q Ago	DSP:EPS1Q.SCN
+132	F	1	EPS 2Q Ago	DSV:EPS2Q.SCN
+133	T	1	EPS 2Q Ago	DSP:EPS2Q.SCN
+134	F	1	EPS 3Q Ago	DSV:EPS3Q.SCN
+135	T	1	EPS 3Q Ago	DSP:EPS3Q.SCN
+136	F	1	EPS 4Q Ago	DSV:EPS4Q.SCN
+137	T	1	EPS 4Q Ago	DSP:EPS4Q.SCN
+138	F	1	EPS Last Qtr Change	DSV:EPSLSTQ.SCN
+139	T	1	EPS Last Qtr Change	DSP:EPSLSTQ.SCN
+140	F	1	Estimated EPS	DSV:ESTEPS.SCN
+141	T	1	Estimated EPS	DSP:ESTEPS.SCN
+142	F	1	Estimated EPS fiscal yr	DSV:ESTEPSYR.SCN
+143	T	1	Estimated EPS fiscal yr	DSP:ESTEPSYR.SCN
+144	F	1	Estimated PE ratio	DSV:ESTPERAT.SCN
+145	T	1	Estimated PE ratio	DSP:ESTPERAT.SCN
+146	F	1	Insider Owned Percentage	DSV:INSIDER.SCN
+147	T	1	Insider Owned Percentage	DSP:INSIDER.SCN
+148	F	1	Institutional Holdings	DSV:INSOWNSH.SCN
+149	T	1	Institutional Holdings	DSP:INSOWNSH.SCN
+150	F	1	Intangibles	DSV:INTANG.SCN
+151	T	1	Intangibles	DSP:INTANG.SCN
+152	F	1	Jake Bernstein Sentiment	DSV:JBSENT.SCN
+153	T	1	Jake Bernstein Sentiment	DSP:JBSENT.SCN
+154	F	1	COT Large Spec Longs	DSV:LGSPCL.SCN
+155	T	1	COT Large Spec Longs	DSP:LGSPCL.SCN
+156	F	1	COT Large Spec Shorts	DSV:LGSPCS.SCN
+157	T	1	COT Large Spec Shorts	DSP:LGSPCS.SCN
+158	F	1	Liabilities - Current	DSV:LIABIL.SCN
+159	T	1	Liabilities - Current	DSP:LIABIL.SCN
+160	F	1	Long Term Debt	DSV:LTDEBT.SCN
+161	T	1	Long Term Debt	DSP:LTDEBT.SCN
+162	F	1	Long Term Debt Per Equity	DSV:LTDEBTPE.SCN
+163	T	1	Long Term Debt Per Equity	DSP:LTDEBTPE.SCN
+164	F	1	LW Futures Sentiment	DSV:LWFSENT.SCN
+165	T	1	LW Futures Sentiment	DSP:LWFSENT.SCN
+166	F	1	LW Stock Sentiment	DSV:LWSSENT.SCN
+167	T	1	LW Stock Sentiment	DSP:LWSSENT.SCN
+168	F	1	Market Capitalization	DSV:MKTCAP.SCN
+169	T	1	Market Capitalization	DSP:MKTCAP.SCN
+170	F	1	Market Sentiment	DSV:MKTSENT.SCN
+171	T	1	Market Sentiment	DSP:MKTSENT.SCN
+172	F	1	Next Dividend Date	DSV:NEXTDIVDATE.SCN
+173	T	1	Next Dividend Date	DSP:NEXTDIVDATE.SCN
+174	F	1	Next Earnings Date	DSV:NEXTEARN.SCN
+175	T	1	Next Earnings Date	DSP:NEXTEARN.SCN
+176	F	1	Assets - Other	DSV:OASSETS.SCN
+177	T	1	Assets - Other	DSP:OASSETS.SCN
+178	F	1	Liabilities - Other	DSV:OLIAB.SCN
+179	T	1	Liabilities - Other	DSP:OLIAB.SCN
+180	T	1	Options Volume Spike	DSV:OPTVOLSPIKE.SCN
+181	F	1	Past 5 yr earnings growth	DSV:P5YREG.SCN
+182	T	1	Past 5 yr earnings growth	DSP:P5YREG.SCN
+183	F	1	Percent Held by Institutions	DSV:PCTHELD.SCN
+184	T	1	Percent Held by Institutions	DSP:PCTHELD.SCN
+185	F	1	Prospective earnings growth	DSV:PEGRATIO.SCN
+186	T	1	Prospective earnings growth	DSP:PEGRATIO.SCN
+187	F	1	PE Ratio	DSV:PERATIO.SCN
+188	T	1	PE Ratio	DSP:PERATIO.SCN
+189	F	1	Property, Plant, & Equipment	DSV:PPE.SCN
+190	T	1	Property, Plant, & Equipment	DSP:PPE.SCN
+191	F	1	Profit Margin 1Q Ago	DSV:PRMAR1Q.SCN
+192	T	1	Profit Margin 1Q Ago	DSP:PRMAR1Q.SCN
+193	F	1	Profit Margin 2Q Ago	DSV:PRMAR2Q.SCN
+194	T	1	Profit Margin 2Q Ago	DSP:PRMAR2Q.SCN
+195	F	1	Profit Margin 3Q Ago	DSV:PRMAR3Q.SCN
+196	T	1	Profit Margin 3Q Ago	DSP:PRMAR3Q.SCN
+197	F	1	Profit Margin 4Q Ago	DSV:PRMAR4Q.SCN
+198	T	1	Profit Margin 4Q Ago	DSP:PRMAR4Q.SCN
+199	F	1	Profit Margin	DSV:PRMARGIN.SCN
+200	T	1	Profit Margin	DSP:PRMARGIN.SCN
+201	F	1	Price to Book Ratio	DSV:PRTOBK.SCN
+202	T	1	Price to Book Ratio	DSP:PRTOBK.SCN
+203	F	1	Price to Cash Flow	DSV:PRTOFLOW.SCN
+204	T	1	Price to Cash Flow	DSP:PRTOFLOW.SCN
+205	F	1	Price to Revenue Ratio	DSV:PRTOREV.SCN
+206	T	1	Price to Revenue Ratio	DSP:PRTOREV.SCN
+207	F	1	Quick Ratio	DSV:QUICKRAT.SCN
+208	T	1	Quick Ratio	DSP:QUICKRAT.SCN
+209	F	1	Return on Assets	DSV:RASSETS.SCN
+210	T	1	Return on Assets	DSP:RASSETS.SCN
+211	F	1	Return on Equity	DSV:RETEQ.SCN
+212	T	1	Return on Equity	DSP:RETEQ.SCN
+213	F	1	Sales	DSV:SALES.SCN
+214	T	1	Sales	DSP:SALES.SCN
+215	F	1	Sales 1Q Ago	DSV:SALES1Q.SCN
+216	T	1	Sales 1Q Ago	DSP:SALES1Q.SCN
+217	F	1	Sales 2Q Ago	DSV:SALES2Q.SCN
+218	T	1	Sales 2Q Ago	DSP:SALES2Q.SCN
+219	F	1	Sales 3Q Ago	DSV:SALES3Q.SCN
+220	T	1	Sales 3Q Ago	DSP:SALES3Q.SCN
+221	F	1	Sales 4Q Ago	DSV:SALES4Q.SCN
+222	T	1	Sales 4Q Ago	DSP:SALES4Q.SCN
+223	F	1	Sales Per Share	DSV:SALESPSH.SCN
+224	T	1	Sales Per Share	DSP:SALESPSH.SCN
+225	F	1	SharesFloat	DSV:SHRFLOAT.SCN
+226	T	1	SharesFloat	DSP:SHRFLOAT.SCN
+227	F	1	Short Term Debt	DSV:SHTRMDT.SCN
+228	T	1	Short Term Debt	DSP:SHTRMDT.SCN
+229	F	1	COT Small Spec Longs	DSV:SMSPCL.SCN
+230	T	1	COT Small Spec Longs	DSP:SMSPCL.SCN
+231	F	1	COT Small Spec Shorts	DSV:SMSPCS.SCN
+232	T	1	COT Small Spec Shorts	DSP:SMSPCS.SCN
+233	F	1	Stockholders Equity	DSV:STOCKEQ.SCN
+234	T	1	Stockholders Equity	DSP:STOCKEQ.SCN
+235	F	1	Assets - Total	DSV:TOTASSET.SCN
+236	T	1	Assets - Total	DSP:TOTASSET.SCN
+237	F	1	Liabilities - Total	DSV:TOTLIAB.SCN
+238	T	1	Liabilities - Total	DSP:TOTLIAB.SCN
+239	T	1	All U.S. Stocks	DSV:USSTOCKS.SCN
+240	F	1	Month of Fiscal Year End	DSV:YRENDMO.SCN
+241	T	1	Month of Fiscal Year End	DSP:YRENDMO.SCN
+
+========== SYMBOL GROUPS =============
+1	ALL SYMBOLS.GRP	False	1	True	ALL Symbols	
+2	ALL FUTURES.GRP	False	1	True	All FUTURES	
+3	ALL INDICES.GRP	False	1	True	All INDICES	
+4	ALL STOCKS.GRP	False	1	True	All U.S. STOCKS	
+5	ALL INT'L STOCKS.GRP	False	1	False	All INT'L STOCKS	
+6	ALL MUTUAL FUNDS.GRP	False	1	False	All MUTUAL FUNDS	
+7	ALL FOREX.GRP	False	1	True	All FOREX	
+8	AMEX.GRP	False	0	False	AMEX	
+9	AUST.GRP	False	0	False	Australian Stocks	
+10	CANADIAN.GRP	False	0	False	Canadian Stocks	
+11	COMMONFUTURES.GRP	False	0	True	Common Futures	The most commonly traded futures and commodity markets.
+12	CONT067.GRP	False	0	True	Continuous 067's	
+13	DOW30.GRP	False	0	True	Dow 30	Stocks making up the Dow Jones Industrial Average index.
+14	DOWCO.GRP	False	0	True	Dow Composite	Stocks making up the Dow Composite index.
+15	DOWTRANS.GRP	False	0	False	Dow Transportation	
+16	DOWUTIL.GRP	False	0	False	Dow Utilities	Stocks making up the Dow Utilities index.
+17	ELECFUT.GRP	False	0	True	Electronic Futures	
+18	ETF.GRP	False	0	False	ETF	
+19	FOREX.GRP	False	0	False	Forex	
+20	GERMAN.GRP	False	0	False	German Stocks	
+21	INDIA.GRP	False	0	False	India Stocks	
+22	LEAPS.GRP	False	0	True	Stocks with Leaps	
+23	LONDON.GRP	False	0	False	London Stocks	
+24	MILAN.GRP	False	0	False	Milan Stocks	
+25	NAS100.GRP	False	0	True	Nasdaq 100	Stocks making up the Nasdaq 100 index.
+26	NASBIO.GRP	False	0	False	Nasdaq Biotech	
+27	NASCOM.GRP	False	0	True	Nasdaq Composite	
+28	NASDAQ.GRP	False	0	True	NASDAQ	
+29	NASFIN.GRP	False	0	False	Nasdaq Financial 100	
+30	NASINS.GRP	False	0	False	Nasdaq Insurance	
+31	NASTRANS.GRP	False	0	False	Nasdaq Transp.	Nasdaq Transportation
+32	NYSE.GRP	False	0	True	NYSE	
+33	OPTIDX.GRP	False	0	True	Optionable Indices	
+34	OPTSTKS.GRP	False	0	True	Optionable Stocks	Stocks with Options
+35	OSAKA.GRP	False	0	False	Osaka Stocks	
+36	RUS1000.GRP	False	0	True	Russell 1000	Stocks making up the Russell 1000 index.
+37	RUS2000.GRP	False	0	False	Russell 2000	Stocks making up the Russell 2000 index.
+38	RUS3000.GRP	False	0	True	Russell 3000	Stocks making up the Russell 3000 index.
+39	SAFRICA.GRP	False	0	False	Johannesburg Stocks	
+40	SINGAPOR.GRP	False	0	False	Singapore Stocks	
+41	SP100.GRP	False	0	True	S&P 100	Stocks making up the S&P 100 index.
+42	SP400.GRP	False	0	False	S&P 400	Stocks making up the S&P 400 index.
+43	SP500.GRP	False	0	True	S&P 500	Stocks making up the S&P 500 index.
+44	STRID.GRP	False	0	False	TS - Symbol Group	Obsolete
+45	THAI.GRP	False	0	False	Thailand Stocks	
+46	TOKYO.GRP	False	0	False	Tokyo Stocks	
+47	TSU10.GRP	False	0	False	TradeSmart Top 10	
+48	TSU50.GRP	False	0	False	TradeSmart Top 50	
+49	WARSAW.GRP	False	0	False	Warsaw Stocks	
+50	WIG20.GRP	False	0	False	WIG 20	
+51	WIG40.GRP	False	0	False	WIG 40	
+52	WIG80.GRP	False	0	False	WIG 80	
+53	WOPTSTOC.GRP	False	0	True	Weekly Optionable Stocks	
+54	_FLAGS_.GRP	True	3	True	FLAGGED Symbols	
+
+========== CRITERIA =============
+1	ANNDIV.SCN	False	False	True	Annual Dividend Rate	Annual Dividend Rate
+2	ASSETS.SCN	False	False	True	Assets - Current	Current Assets
+3	AVGVOL.SCN	False	False	True	Average Volume	Current Average Volume
+4	BALSHT.SCN	False	False	True	Balance Sheet Date	Balance Sheet Date
+5	BETA.SCN	False	False	True	Beta	Current Beta
+6	BKPERSHR.SCN	False	False	True	Book Per Share	Book Value per Share (Most Recent Quarter)
+7	CMSHARES.SCN	False	False	True	Common Shares	Number of Common Shares
+8	COMLONG.SCN	False	False	True	COT Commercials Longs	COT Commercials Longs
+9	COMSHORT.SCN	False	False	True	COT Commercials Shorts	COT Commercials Shorts
+10	CSHEQV.SCN	False	False	True	Cash and Equivalents	Cash and Equivalents
+11	CSHFLWSH.SCN	False	False	True	Cash Flow Per Share	Cash Flow Per Share (Trailing Twelve Months)
+12	CSHSH.SCN	False	False	True	Cash Per Share	Cash Per Share (Most Recent Quarter)
+13	CURRAT.SCN	False	False	True	Current Ratio	Current Ratio (Most Recent Quarter)
+14	DEBTPEQ.SCN	False	False	True	Total Debt Per Equity	Total Debt Per Equity (Most Recent Quarter)
+15	DIV.SCN	False	False	True	Cash Dividends on Common Stock	Cash Dividends on Common Stock
+16	DIV1Q.SCN	False	False	True	Dividend 1Q Ago	Dividend for One Quarter Ago
+17	DIV2Q.SCN	False	False	True	Dividend 2Q Ago	Dividend for Two Quarters Ago
+18	DIV3Q.SCN	False	False	True	Dividend 3Q Ago	Dividend for Three Quarters Ago
+19	DIV4Q.SCN	False	False	True	Dividend 4Q Ago	Dividend for One Year Ago
+20	DIVYIELD.SCN	False	False	True	Dividend Yield	Dividend Yield
+21	EARN1Q.SCN	False	False	True	Earnings 1Q Ago	Earnings One Quarter Ago
+22	EARN2Q.SCN	False	False	True	Earnings 2Q Ago	Earnings Two Quarters Ago
+23	EARN3Q.SCN	False	False	True	Earnings 3Q Ago	Earnings Three Quarters Ago
+24	EARN4Q.SCN	False	False	True	Earnings 4Q Ago	Earnings One Year Ago
+25	EARNINGS.SCN	False	False	True	Earnings	Current Earnings
+26	EBIT.SCN	False	False	True	EBIT	Earnings Before Interest & Taxes
+27	EBIT1Q.SCN	False	False	True	EBIT 1Q Ago	Earnings Before Interest & Taxes One Quarter Ago
+28	EBIT2Q.SCN	False	False	True	EBIT 2Q Ago	Earnings Before Interest & Taxes Two Quarters Ago
+29	EBIT3Q.SCN	False	False	True	EBIT 3Q Ago	Earnings Before Interest & Taxes Three Quarters Ago
+30	EBIT4Q.SCN	False	False	True	EBIT 4Q Ago	Earnings Before Interest & Taxes One Year Ago
+31	EGE5YR.SCN	False	False	True	Estimated 5 yr earnings growth	Estimated 5 yr earnings growth
+32	EPS.SCN	False	False	True	EPS most recent quarter	Current Earnings Per Share (most recent quarter)
+33	EPS12CHG.SCN	False	False	True	EPS 12 Month Change	Percent Change in Earnings Per Share over the last 12 Months
+34	EPS12MO.SCN	False	False	True	EPS for last 12 Months	Earnings Per Share for the last 12 Months
+35	EPS1Q.SCN	False	False	True	EPS 1Q Ago	Earnings Per Share One Quarter Ago
+36	EPS2Q.SCN	False	False	True	EPS 2Q Ago	Earnings Per Share Two Quarters Ago
+37	EPS3Q.SCN	False	False	True	EPS 3Q Ago	Earnings Per Share Three Quarters Ago
+38	EPS4Q.SCN	False	False	True	EPS 4Q Ago	Earnings Per Share One Year Ago
+39	EPSLSTQ.SCN	False	False	True	EPS Last Qtr Change	Percent Change in Earnings Per Share Since Last Quarter
+40	ESTEPS.SCN	False	False	True	Estimated EPS	Estimated Earnings Per Share for the Year
+41	ESTEPSYR.SCN	False	False	True	Estimated EPS fiscal yr	Estimated EPS fiscal year
+42	ESTPERAT.SCN	False	False	True	Estimated PE ratio	Estimated PE ratio fiscal year
+43	INSIDER.SCN	False	False	True	Insider Owned Percentage	Insider Owned Percentage
+44	INSOWNSH.SCN	False	False	True	Institutional Holdings	Institutional Holdings
+45	INTANG.SCN	False	False	True	Intangibles	Intangibles (Assets)
+46	JBSENT.SCN	False	False	True	Jake Bernstein Sentiment	Jake Bernstein Sentiment
+47	LGSPCL.SCN	False	False	True	COT Large Spec Longs	COT Large Spec Longs
+48	LGSPCS.SCN	False	False	True	COT Large Spec Shorts	COT Large Spec Shorts
+49	LIABIL.SCN	False	False	True	Liabilities - Current	Current Liabilities
+50	LTDEBT.SCN	False	False	True	Long Term Debt	Long Term Debt
+51	LTDEBTPE.SCN	False	False	True	Long Term Debt Per Equity	Long Term Debt / Equity (Most Recent Quarter)
+52	LWFSENT.SCN	False	False	True	LW Futures Sentiment	Larry Williams Futures Sentiment
+53	LWSSENT.SCN	False	False	True	LW Stock Sentiment	Larry Williams Stock Sentiment
+54	MKTCAP.SCN	False	False	True	Market Capitalization	Current Market Capitalization = Current Price * Number of Common Shares
+55	MKTSENT.SCN	False	False	True	Market Sentiment	Genesis Market Sentiment
+56	NEXTDIVDATE.SCN	False	False	True	Next Dividend Date	Date for the next Dividend (if announced)
+57	NEXTEARN.SCN	False	False	True	Next Earnings Date	Estimated Date for when the Next Earnings will be announced
+58	OASSETS.SCN	False	False	True	Assets - Other	Other Assets
+59	OLIAB.SCN	False	False	True	Liabilities - Other	Other Liabilities
+60	OPTVOLSPIKE.SCN	False	True	False	Options Volume Spike	A proprietary indicator that returns true when there is an abnormality in the put/call volumes.
+61	P5YREG.SCN	False	False	True	Past 5 yr earnings growth	Past 5 yr earnings growth
+62	PCTHELD.SCN	False	False	True	Percent Held by Institutions	Percent Held by Institutions
+63	PEGRATIO.SCN	False	False	True	Prospective earnings growth	Prospective earnings growth
+64	PERATIO.SCN	False	False	True	PE Ratio	Current Price to Earnings Ratio
+65	PPE.SCN	False	False	True	Property, Plant, & Equipment	Property, Plant, and Equipment
+66	PRMAR1Q.SCN	False	False	True	Profit Margin 1Q Ago	Profit Margin One Quarter Ago
+67	PRMAR2Q.SCN	False	False	True	Profit Margin 2Q Ago	Profit Margin Two Quarters Ago
+68	PRMAR3Q.SCN	False	False	True	Profit Margin 3Q Ago	Profit Margin Three Quarters Ago
+69	PRMAR4Q.SCN	False	False	True	Profit Margin 4Q Ago	Profit Margin One Year Ago
+70	PRMARGIN.SCN	False	False	True	Profit Margin	Current Profit Margin
+71	PRTOBK.SCN	False	False	True	Price to Book Ratio	Price to Book Ratio
+72	PRTOFLOW.SCN	False	False	True	Price to Cash Flow	Price to Cash Flow Ratio (Trailing Twelve Month)
+73	PRTOREV.SCN	False	False	True	Price to Revenue Ratio	Price to Revenue Ratio
+74	QUICKRAT.SCN	False	False	True	Quick Ratio	Quick Ratio (Most Recent Quarter)
+75	RASSETS.SCN	False	False	True	Return on Assets	Percent Return on Assets
+76	RETEQ.SCN	False	False	True	Return on Equity	Percent Return on Equity
+77	SALES.SCN	False	False	True	Sales	Current Revenue
+78	SALES1Q.SCN	False	False	True	Sales 1Q Ago	Revenue One Quarter Ago
+79	SALES2Q.SCN	False	False	True	Sales 2Q Ago	Revenue Two Quarters Ago
+80	SALES3Q.SCN	False	False	True	Sales 3Q Ago	Revenue Three Quarters Ago
+81	SALES4Q.SCN	False	False	True	Sales 4Q Ago	Revenue One Year Ago
+82	SALESPSH.SCN	False	False	True	Sales Per Share	Sales Per Share (Trailing Twelve Months)
+83	SHRFLOAT.SCN	False	False	True	SharesFloat	Float
+84	SHTRMDT.SCN	False	False	True	Short Term Debt	Short Term Debt
+85	SMSPCL.SCN	False	False	True	COT Small Spec Longs	COT Small Spec Longs
+86	SMSPCS.SCN	False	False	True	COT Small Spec Shorts	COT Small Spec Shorts
+87	STOCKEQ.SCN	False	False	True	Stockholders Equity	Stockholders Equity
+88	TOTASSET.SCN	False	False	True	Assets - Total	Total Assets
+89	TOTLIAB.SCN	False	False	True	Liabilities - Total	Total Liabilities
+90	USSTOCKS.SCN	False	True	True	All U.S. Stocks	
+91	YRENDMO.SCN	False	False	True	Month of Fiscal Year End	Month of Fiscal Year End
+
+========== FILTERS =============
