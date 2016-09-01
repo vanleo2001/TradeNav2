@@ -1,0 +1,27 @@
+Name=Optionable Indices
+Desc=
+Required=
+GroupType=0
+IsIndex=0
+PriceDivisor=1
+VolDivisor=1
+96	$DJX	0	0	0
+120	$GOX	0	0	0
+157	$INX	0	0	0
+180	$NDX	0	0	0
+189	$OEX	0	0	0
+191	$OIX	0	0	0
+200	$RUI	0	0	0
+201	$RUT	0	0	0
+207	$SPX	0	0	0
+217	$TXX	0	0	0
+47540	$MNX	0	0	0
+48721	$VIX	0	0	0
+135184	$DXL	0	0	0
+135186	$EXQ	0	0	0
+135197	$MVR	0	0	0
+135201	$RMN	0	0	0
+135203	$RVX	0	0	0
+135212	$XEO	0	0	0
+135213	$XSP	0	0	0
+221941	$CYX	0	0	0

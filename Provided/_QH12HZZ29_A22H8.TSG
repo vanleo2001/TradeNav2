@@ -1,0 +1,13 @@
+Version=1
+Name=DC Pro Cont Fut Long
+Description=
+Order=1||0|Provided\_QH12HZZ29_ZEECS.TSO|1
+Order=2|3|1|Provided\_QH12HZZ29_N1FEW.TSO|1
+Order=3|2|1|Provided\_QH12HZZ29_3KAKY.TSO|1
+Order=4|5|3|Provided\_QH12HZZ29_D3FQY.TSO|1
+Order=5|4|3|Provided\_NBPCP76KQ_DKRZ1.TSO|1
+LinkInputs=0
+Inputs=DCENTRY;4;1;;|Ticks;1;2;4;|DCSTOP;4;3;;|DCSTOP;1;5;;
+Required=GMAJPRO,DCPROFUT
+AllowManual=-1
+FlattenOpposite=-1

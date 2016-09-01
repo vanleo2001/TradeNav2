@@ -1,0 +1,10 @@
+@\*.exe
+@\*.dll
+@\*.ocx
+@\..\SharedSelfReg\*.*
+$\g32*.dll
+$\vs*.ocx
+$\peg*.dll
+$\peg*.ocx
+$\otx*.dll
+$\formx.*

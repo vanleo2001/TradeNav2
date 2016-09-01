@@ -1,0 +1,10 @@
+1	ZLR - Zero Line Reject	WOODCCI	Woodies CCI Club Zero Line Reject
+2	TT - Tony Trade	WOODCCI	Woodies CCI Club Tony Trade
+3	G - Ghost	WOODCCI	Woodies CCI Club Ghost Trade
+4	MG - Mittens Ghost	WOODCCI	Woodies CCI Club Mittens Ghost
+5	GB - GB100	WOODCCI	Woodies CCI Club GB100
+6	F - Famir	WOODCCI	Woodies CCI Club Famir
+7	VT - Vegas Trade	WOODCCI	Woodies CCI Club Vegas Trade
+8	TLB - Trend Line Break	WOODCCI	Woodies CCI Club Trend Line Break
+9	HTLB - Horizontal Trend Line Break	WOODCCI	Woodies CCI Club Horizontal Trend Line Break
+10	HFE - Hook From Extreme	WOODCCI	Woodies CCI Club Hood From Extreme

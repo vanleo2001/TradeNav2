@@ -1,0 +1,30 @@
+' The "HelpItems.MNU" file adds items to the help menu ...
+' - Format: Type<tab>Menu Name<tab>Location<tab>Modules (optional comma-delimited string)
+' - Types:
+'   1 = remote web page (displayed with the browser, requires internet connection)
+'   2 = local HTML file (displayed with the browser, no internet connection)
+'   3 = local .TXT or .RTF file (displayed in the "News" window)
+'   4 = local .HLP file (displayed using the operating system's help program)
+' - Location: web address or name of local file
+' - Modules: item will only show if user is enabled for one of the specified modules
+1	BetterTrades website	www.BetterTrades.com	ETA
+1	Rule 1 University website	www.Rule1U.com	R1U
+1	Online Manuals	www.bettertrades.com/myaccount2.aspx?section=exct	ETA
+1	Get the Floor Traders Edge Now!	https://www2.gotomeeting.com/register/430404146	FTCP,PFG-FTC
+1	TradeSmart University website	www.tradesmartu.com	TSU
+'1	Floor Traders Club website	www.floortradersclub.com	FTCP,PFG-FTC
+'1	LEARN:FOREX Web Site	www.LearnForex.com	LEARNFX
+'1	PFG BEST Web Site	www.pfgbest.com	B_PFG,PFG
+'1	Quick Start Reference	www.genesisft.com/QuickStart.asp	-BTX
+'1	Live Chat	https://messenger.providesupport.com/messenger/genesis.html?ps_s=EBNGEiz9wKUJ&ps_mht=true	-BTX
+1	Live Chat with Genesis!	https://messenger.providesupport.com/messenger/genesis.html	-BTX
+1	Quick Start Reference	www.genesisft.com/Support/TradeNav/Trade%20Navigator%20QSG%200308.pdf	-BTX
+1	Contact Genesis	www.genesisft.com/contact_us.php	-BTX
+1	Genesis Web Site	www.GenesisFT.com	-BTX
+1	Trade Navigator Manuals	www.genesisft.com/manuals.php	-BTX
+1	Genesis Training Videos	www.genesisft.com/education.php	-BTX
+1	Genesis Community	www.genesisft.com/forum/index.php	-BTX
+'1	Activate Products on Trial	https://www.genesisft.com/ClientManager/Route.aspx?L=Activate&U*=&P=*	-BTX
+4	Remote Assistance	Info\Remote\GRemote.exe		Remote.ico
+4	Remote Assistance with PFG	Info\Remote\GRemote.exe | host=209.120.191.95	B_PFG	Remote.ico
+'4	Remote Assistance	.\Remote\GRemote.exe		Remote.ico

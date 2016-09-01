@@ -1,0 +1,18 @@
+Name=Price to Revenue Ratio
+Required=
+Desc=Price to Revenue Ratio
+StorageType=0
+English=IFF (Market Numeric Property (13) = 73 , Get Current Value ("100") , Close / (Get Current Value ("Revenue") / Get Current Value ("CommonShrs")))
+Coded=~01006IfElse ~16001( ~04019BarsNumericProperty ~16001( ~07007Market1 ~22001, ~1300213 ~17001) ~11001= ~1300273 ~22001, ~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20003100 ~22001, ~13007-999999 ~17001) ~22001, ~01005Close ~16001( ~07007Market1 ~17001) ~10001/ ~14001( ~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20007Revenue ~22001, ~13007-999999 ~17001) ~10001/ ~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20010CommonShrs ~22001, ~13007-999999 ~17001) ~15001) ~17001)
+Formatted=
+IsBoolean=0
+UsageType=0
+IsDirty=-1
+NumDays=0
+NumDaysOver=1
+IsActive=-1
+IsWeekly=0
+GroupID=GRP:ALL STOCKS.GRP
+PriceDisplay=0
+DecimalPlaces=2
+Grouping=5

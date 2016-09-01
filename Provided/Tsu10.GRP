@@ -1,0 +1,17 @@
+Name=TradeSmart Top 10
+Desc=
+Required=TSU
+GroupType=0
+IsIndex=0
+PriceDivisor=1
+VolDivisor=1
+332	AAPL	0	0	0
+1471	AMZN	0	0	0
+6885	DIS	0	0	0
+213125	FAS	0	0	0
+11120	HD	0	0	0
+12668	NFLX	0	0	0
+20694	SBUX	0	0	0
+10968	HAL	0	0	0
+10223	GILD	0	0	0
+23035	TGT	0	0	0

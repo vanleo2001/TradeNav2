@@ -1,0 +1,17 @@
+Name=Next Earnings Date
+Required=
+Desc=Estimated Date for when the Next Earnings will be announced
+StorageType=0
+English=Get Current Value ("NextEarnings" , -999999)
+Coded=~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20012NextEarnings ~22001, ~13007-999999 ~17001)
+Formatted=~04017Get Current Value ~16001( ~20014"NextEarnings" ~22001, ~13007-999999 ~17001) ~80003<E>
+IsBoolean=0
+UsageType=0
+IsDirty=-1
+NumDays=1
+NumDaysOver=-1
+IsActive=-1
+IsWeekly=0
+GroupID=GRP:ALL SYMBOLS.GRP
+PriceDisplay=0
+DecimalPlaces=2

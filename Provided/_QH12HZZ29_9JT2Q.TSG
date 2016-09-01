@@ -1,0 +1,13 @@
+Version=1
+Name=DC Pro Cont Fut Short Alt
+Description=
+Order=1||0|Provided\_QH12HZZ29_YG1X3.TSO|1
+Order=2|3|1|Provided\_QH12HZZ29_8WB7P.TSO|1
+Order=3|2|1|Provided\_QH12HZZ29_Y9V4Z.TSO|1
+Order=4|5|3|Provided\_QH12HZZ29_VTPYM.TSO|1
+Order=5|4|3|Provided\_NBPCP76KQ_6RFV3.TSO|1
+LinkInputs=0
+Inputs=DCENTRY;4;1;;|Ticks;1;2;2;|DCSTOP;4;3;;|DCSTOP;1;5;;
+Required=GMAJPRO,DCPROFUT
+AllowManual=-1
+FlattenOpposite=-1

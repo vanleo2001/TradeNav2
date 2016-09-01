@@ -1,0 +1,4 @@
+Future Break Even Stop
+~24002IF ~04016Bars Since Entry ~11002>= ~130010 	~24002IF ~04015EntryBarOfTrade ~16001( ~17001) ~11002>= ~130010 	~04011Entry Price ~08001+ ~04009Tick Move 	~04017EntryPriceOfTrade ~16001( ~17001) ~08001+ ~04008TickMove ~16001( ~07007Market1 ~17001) 		~130010 	0	0	1	Daily	1	1	1	100	1	0	DCPLUS,DCFUTURE	1
+-1
+

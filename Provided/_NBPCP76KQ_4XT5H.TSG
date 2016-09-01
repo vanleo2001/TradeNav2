@@ -1,0 +1,13 @@
+Version=1
+Name=Future Neutral Trend Short
+Description=
+Order=1||0|Provided\_NBPCP76KQ_7MZJG.TSO|1
+Order=2|7|1|Provided\_NBPCP76KQ_DF1S7.TSO|1
+Order=3|4|2|Provided\_NBPCP76KQ_6RFV3.TSO|1
+Order=4|3|2|Provided\_NBPCP76KQ_REUS7.TSO|1
+Order=5||1|Provided\_NBPCP76KQ_DV1CG.TSO|1
+Order=6|7|1|Provided\_NBPCP76KQ_D5444.TSO|1
+Order=7|6,2|1|Provided\_NBPCP76KQ_17TQD.TSO|1
+LinkInputs=0
+Inputs=DCENTRY;1;1;;|DC1ST;1;1;;|DCSTOP;4;2;;|DCSTOP;1;3;;|DC1ST;1;5;;|DCENTRY;1;6;;|DCSTOP;1;7;;
+Required=DCH

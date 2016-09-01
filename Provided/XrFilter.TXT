@@ -1,0 +1,8 @@
+1	SL - Stop Loss		Stop Loss
+2	PT - Profit Target		Profit Target
+3	TS - Trailing Stop		Trailing Stop
+4	PT2 - Profit Target 2		Second Profit Target
+5	PT3 - Profit Target 3		Third Profit Target
+6	HO - Hook Outside 100s	WOODCCI	Woodies CCI Club Hook Outside 100s
+7	HB - Hook Between 100s	WOODCCI	Woodies CCI Club Hook Between 100s
+8	100X - 100X Cross the 100s	WOODCCI	Woodies CCI Club 100x Cross the 100s

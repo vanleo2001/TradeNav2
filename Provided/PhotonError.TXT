@@ -1,0 +1,215 @@
+GL001 - Order not present
+GL002 - Order found, but not acknowledged
+GL003 - Invalid symbol
+GL004 - Invalid internal reference
+GL005 - Invalid stock code
+GL006 - Unauthorized stock
+GL007 - Invalid quantity
+GL008 - Invalid price
+GL009 - Invalid validity
+GL010 - Invalid minimum quantity
+GL011 - Invalid displayed quantity
+GL012 - Logical connection with exchange not established
+GL013 - Physical connection with exchange not established
+GL014 - User code error
+GL015 - b/s/c unavailable
+GL016 - Command type unavailable
+GL017 - b/s/c unavailable
+GL018 - Modality unavailable
+GL019 - Order class unavailable
+GL020 - Unknown request number
+GL021 - Sequence number lost
+GL022 - Status incompatible with this command type
+GL023 - Problem sending to exchange
+GL024 - SLE in passive mode
+GL025 - Incorrect format
+GL027 - Impossible process
+GL028 - Message rejected by the hub
+GL029 - Matching own order forbidden
+GL030 - Incorrect market code or not filled
+GL031 - Contra trade already processed
+GL032 - Impossible order
+GL033 - Suspended share
+GL034 - Market closed
+GL035 - Invalid number of decimals in price
+GL040 - Selector missing
+GL050 - Care order affected to another uti
+GL051 - Broker ID is suspended
+GL060 - Invalid User ID
+GL061 - User ID plus client ref not permitted
+GL062 - Invalid stock
+GL063 - Stock not permitted
+GL064 - Capital per order has been exceeded
+GL065 - Incorrect price in relation to maximum price increase
+GL066 - Incorrect price in relation to closing price
+GL067 - Market not permitted
+GL068 - Trading place not permitted
+GL069 - Type of order not authorized
+GL070 - Capital per day exceeded
+GL071 - Quotation group not permitted
+GL072 - Capital per order has been exceeded for this quotation group
+GL073 - Incorrect price in relation to maximum price increase (group)
+GL074 - Incorrect price in relation to closing price (group)
+GL075 - Capital of order is too high
+GL076 - Order flow is greater than filler defined
+GL077 - Order quantity for this stock has been exceeded
+GL078 - Impossible to evaluate the price
+GL080 - Client does not exist or is not authorized
+GL081 - Stock forbidden
+GL082 - Market forbidden
+GL083 - Buy orders forbidden
+GL084 - Sell orders forbidden
+GL085 - Incorrect price
+GL086 - Order with minimum quantity forbidden
+GL087 - Modifications forbidden
+GL088 - Hidden orders forbidden
+GL089 - Cross forbidden
+GL090 - Day validity forbidden
+GL091 - Revocation validity forbidden
+GL092 - FAK validity forbidden
+GL093 - Date validity forbidden
+GL094 - Client type not authorized
+GL095 - Coverage exceeded
+GL096 - Maximum order flow reached
+GL097 - Order capital exceeded
+GL098 - General rejection (rejected by selector)
+GL099 - Wrong message
+GL100 - There is no bid and/or ask in the market
+GL101 - List of messages in wait full
+GL102 - Data in flux regulation
+GL103 - Impossible to send, problem on CV
+GL104 - Problem allocation event list
+GL105 - Problem link event
+GL106 - Init event table FI not make
+GL107 - Data not sent after opening session
+GL108 - Data in wait : reject because frozen
+GL109 - Sending impossible, session not established
+GL110 - Communication stop
+GL111 - Limited session
+GL112 - No more session available
+GL113 - Invalid data in message
+GL114 - Problem reading configuration file
+GL120 - No credit account defined
+GL121 - Unknown credit account
+GL122 - Unknown credit class
+GL123 - Credit limit exceeded
+GL124 - Quantity limit exceeded
+GL125 - Worst long limit exceeded
+GL126 - Worst short limit exceeded
+GL127 - Margin rate exceeded
+GL128 - Strategy leg not found
+GL129 - Number of batches exceeded
+GL130 - Daily Capital exceeded
+GL131 - Daily Buy Capital exceeded
+GL132 - Daily Sell Capital exceeded
+GL133 - Order converted into Care Order
+GL134 - Order price with excessive deviation
+GL136
+GL137 - Trader Category forbidden
+GL138 - Origin forbidden
+GL139 - Incorrect price in relation to Last Price for the instrument
+GL140 - Incorrect price in relation to Last Price for the group
+GL150
+GL151 - Colt Connection not established
+GL152 - Invalid order format for Colt
+GL153 - Colt:  Memory Full
+GL154
+GL155 - Maximum shortsell amount exceeded
+GL156 - Qty > long position (auto-shortsell) - Qty must be split to the remaining qty allowed by current long position for this stock
+GL157 - The maximum number of orders is reached
+GL158 - This exchange is not authorized
+GL159 - ClientPTO process is not connected
+GL160 - Server not ready
+GL161 - Modify already executed quantity
+GL162 - Unreachable target
+GL163 - Invalid User ID
+GL164 - Invalid message
+GL166 - Incorrect symbol
+GL167 - Current order is terminated
+GL168 - Wrong server associated to client
+GL169 - Emission to server failed
+GL177 - No filter defined
+GL180 - Net Quantity limit exceeded
+GL182 - Exceed limit on P&L
+GL183 - Unknown operation
+GL184 - Calculation in progress
+GL185 - GLDBC TimeOut
+GL186 - GLDBC Reject
+GL187 - GLDBC Internal Error
+GL188 - Number of cancellation exceeded
+GL189 - Order breaches the filter against manipulation of the stock
+GL190 - Outside of trading hours
+GL191 - TOP percentage exceeded
+GL192 - Percentage for error preventing on the price deviation exceeded
+GL193 - Percentage on first limits deviation exceeded
+GL194 - Number of buy orders exceeded
+GL195 - Number of sell orders exceeded
+GL199 - Limit on order quantity has been exceeded
+GL200
+GL201 - Threshold should be below the limit
+GL202 - Threshold should be above the limit
+GL203 - Order rejection code 1
+GL204 - Order rejection code 2
+GL205 - Order rejection code 3
+GL206 - Order rejection code 4
+GL207 - Order rejection code 5
+GL208 - Order rejection code 6
+GL209 - Order rejection code 7
+GL210 - This software version is invalid.  Contact Support.
+GL211 - Underlying stocks don't match
+GL212 - Nominal quantities don't match
+GL213 - Hedge types don't match
+GL214 - Settlement institutions don't match
+GL215 - Settlement dates don't match
+GL216 - Underlying prices don't match
+GL217 - Orders types don't match
+GL218 - Invalid compensation
+GL219 - Database full
+GL220 - User not authorized to send this request
+GL221 - GAL field missing
+GL222 - Number of messages exceeded for this stock
+GL223 - Total number of messages exceeded
+GL224 - Master's reply TimeOut
+GL226 - Invalid TIF-Order Type Combination
+GLPTO000 - Rejected by PTO
+GLPTO001 - Trigger Order not valid
+GLPTO002 - PTO not connected, sending of trigger orders impossible
+GLPTO003 - No Last price for this stock
+GLPTO004 - Wrong limit price and trigger price combination
+GLPTO005 - Trigger type not managed by PTO (Routing error)
+GLPTO006 - Wrong limit price and last price combination
+GLPTO007 - Order rejected by the exchange
+GLPTO008 - Order eliminated due to receiving of exchange message
+GLPTO009 - Stock not in PTO's dictionary
+GLPTO010 - Order eliminated due to a connection breakdown between PTO and Server
+GLPTO011 - Child order had been cancelled
+GLPTO012 - Target order not found in PTO's database
+GLPTO013 - Order eliminated because of exchange purge message
+GLTS000 - Rejected by GLTS
+GLTS001 - Trigger Order not valid
+GLTS002 - GLTS not connected, sending of trigger orders impossible
+GLTS003 - No Last price for this stock
+GLTS004 - Wrong limit price and trigger price combination
+GLTS005 - Trigger type not managed by GLTS (Routing error)
+GLTS006 - Wrong limit price and last price combination
+GLTS007 - Order rejected by the exchange
+GLTS008 - Order eliminated due to receiving of exchange message
+GLTS009 - Stock not in GLTS's dictionary
+GLTS010 - Order eliminated due to a connection breakdown between GLTS and Server
+GLTS011 - Child order had been cancelled
+GLTS012 - Target order not found in GLTS's database
+GLTS013 - Order eliminated because of exchange purge message
+GLTS014 - Linked stock not in GLTS's dictionary
+GLTS015 - Order to be triggered in the past
+GLTS016 - No ask price for this stock
+GLTS017 - No bid price for this stock
+GLTS018 - Wrong ask price and trigger price combination
+GLTS019 - Wrong bid price and trigger price combination
+GLTS020 - Mandatory field missing or unexpected value
+GLTS021 - No Day Hight or Day Low for this stock
+GLTS022 - Validity not allowed for this type of order
+GLTS023 - Modality not allowed
+GLTS024 - No tick size available for this stock
+GLTS025 - Orders worked with a tick must be at first limit
+GLTS026 - Price spread  between bid and ask is greater than one tick
+GLTS027 - Available market quantity is lower than minimum quantity of this order 

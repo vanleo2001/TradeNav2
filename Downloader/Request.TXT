@@ -1,0 +1,38 @@
+[Form]
+Caption=Historical Data Downloader
+Note=NOTE: after the historical data has finished downloading, it will automatically be linked into the program (but only when data streaming is turned off).
+[Server]
+UserName=genuser
+Password=Qbc951a
+IP=199.227.139.175
+Port=21
+[Files]
+NumberOfFiles=3
+DoneFile=C:\Genesis\Navigator Suite\Downloader\Finished.TXT
+[File1]
+ServerPath=.\DATASETS\20160805
+ServerFilename=IE1_9999.GZP
+LocalPath=C:\Genesis\Navigator Suite\Downloader\Zipped
+LocalFilename=IE1_9999.GZP
+Size=0
+CRC=
+IsZipFile=1
+ZipPath=C:\Genesis\Navigator Suite\_Temp_\
+[File2]
+ServerPath=.\DATASETS\20160805
+ServerFilename=FE1_9999.GZP
+LocalPath=C:\Genesis\Navigator Suite\Downloader\Zipped
+LocalFilename=FE1_9999.GZP
+Size=0
+CRC=
+IsZipFile=1
+ZipPath=C:\Genesis\Navigator Suite\_Temp_\
+[File3]
+ServerPath=.\DATASETS\20160805
+ServerFilename=SE1_9999.GZP
+LocalPath=C:\Genesis\Navigator Suite\Downloader\Zipped
+LocalFilename=SE1_9999.GZP
+Size=0
+CRC=
+IsZipFile=1
+ZipPath=C:\Genesis\Navigator Suite\_Temp_\

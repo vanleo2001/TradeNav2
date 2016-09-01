@@ -1,0 +1,13 @@
+! The purpose of this file is to specify which exmc pairs are deemed to have local forex.
+! the format is xxy where xx is the hexidecimal representation of the exchange and y is the ascii version 
+! of the market center
+! 01p is PFG
+! 01i is Interactive Brokers
+! 01g is GFT
+! 01c is Currenex
+! 01o is OEC
+01p
+01i
+01g
+01c
+01o

@@ -1,0 +1,13 @@
+Version=1
+Name=Continuation Fut Long Alt
+Description=
+Order=1||0|Provided\_NBPCP76KQ_R9F9M.TSO|1
+Order=2|3|1|Provided\_NBPCP76KQ_Z6JMB.TSO|1
+Order=3|2|1|Provided\_NBPCP76KQ_MQ79H.TSO|1
+Order=4|5|3|Provided\_NBPCP76KQ_DKRZ1.TSO|1
+Order=5|4|3|Provided\_NBPCP76KQ_PCKGU.TSO|1
+LinkInputs=-1
+Inputs=DCENTRY;4;1;;|Ticks;1;2;2;|DCSTOP;4;3;;|DCSTOP;1;4;;
+Required=DCPLUS,DCFUTURE
+AllowManual=0
+FlattenOpposite=-1

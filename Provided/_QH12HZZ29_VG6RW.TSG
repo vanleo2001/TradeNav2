@@ -1,0 +1,13 @@
+Version=1
+Name=DC Pro Cont FX Long Alt
+Description=
+Order=1||0|Provided\_QH12HZZ29_RQ24T.TSO|1
+Order=2|3|1|Provided\_QH12HZZ29_N1FEW.TSO|1
+Order=3|2|1|Provided\_QH12HZZ29_MQCSS.TSO|1
+Order=4|5|3|Provided\_QH12HZZ29_A6RVR.TSO|1
+Order=5|4|3|Provided\_NBPCP76KQ_BTJNN.TSO|1
+LinkInputs=0
+Inputs=DCENTRY;1;1;;|Ticks;1;2;5;|DCSTOP;1;3;;|DCSTOP;1;5;;
+Required=GMAJPRO,DCPROFX
+AllowManual=-1
+FlattenOpposite=-1

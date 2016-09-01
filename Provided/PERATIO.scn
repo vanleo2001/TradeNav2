@@ -1,0 +1,18 @@
+Name=PE Ratio
+Required=
+Desc=Current Price to Earnings Ratio
+StorageType=0
+English=IFF (Market Numeric Property (13) = 73 , Get Current Value ("PERatio") , Close / Get Current Value ("TwlvMoEPS"))
+Coded=~01006IfElse ~16001( ~04019BarsNumericProperty ~16001( ~07007Market1 ~22001, ~1300213 ~17001) ~11001= ~1300273 ~22001, ~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20007PERatio ~22001, ~13007-999999 ~17001) ~22001, ~01005Close ~16001( ~07007Market1 ~17001) ~10001/ ~04016GetDmDataCurrent ~16001( ~07007Market1 ~22001, ~20009TwlvMoEPS ~22001, ~13007-999999 ~17001) ~17001)
+Formatted=~01003IFF ~16001( ~04023Market Numeric Property ~16001( ~1300213 ~17001) ~11001= ~1300273 ~22001, ~04017Get Current Value ~16001( ~20009"PERatio" ~17001) ~22001, ~01005Close ~10001/ ~04017Get Current Value ~16001( ~20011"TwlvMoEPS" ~17001) ~17001) ~80003<E>
+IsBoolean=0
+UsageType=0
+IsDirty=-1
+NumDays=0
+NumDaysOver=1
+IsActive=-1
+IsWeekly=0
+GroupID=GRP:ALL STOCKS.GRP
+PriceDisplay=0
+DecimalPlaces=2
+Grouping=5

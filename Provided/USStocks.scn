@@ -1,0 +1,18 @@
+Name=All U.S. Stocks
+Required=
+Desc=
+StorageType=5
+English=Security Type = "S" And String Contains (Market String Property (101) , "@") = False
+Coded=~30012SecurityType ~16001( ~07007Market1 ~17001) ~11001= ~20001S ~12003And ~02005InStr ~16001( ~30018BarsStringProperty ~16001( ~07007Market1 ~22001, ~13003101 ~17001) ~22001, ~20001@ ~17001) ~11001= ~03005False ~16001( ~17001)
+Formatted=~30013Security Type ~11001= ~20003"S" ~12003And ~02015String Contains ~16001( ~30022Market String Property ~16001( ~13003101 ~17001) ~22001, ~20003"@" ~17001) ~11001= ~03005False ~80003<E>
+IsBoolean=-1
+UsageType=0
+IsDirty=-1
+NumDays=1
+NumDaysOver=-1
+IsActive=-1
+IsWeekly=0
+GroupID=GRP:ALL STOCKS.GRP
+PriceDisplay=0
+DecimalPlaces=2
+Grouping=1

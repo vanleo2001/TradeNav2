@@ -1,0 +1,12 @@
+Version=1
+Name=Future Strong Trend Short
+Description=
+Order=1||0|Provided\_NBPCP76KQ_7MZJG.TSO|1
+Order=2|5|1|Provided\_NBPCP76KQ_DF1S7.TSO|1
+Order=3|4|2|Provided\_NBPCP76KQ_6RFV3.TSO|1
+Order=4|3|2|Provided\_NBPCP76KQ_REUS7.TSO|1
+Order=5|2|1|Provided\_NBPCP76KQ_17TQD.TSO|1
+Order=6||1|Provided\_NBPCP76KQ_UZCTC.TSO|1
+LinkInputs=0
+Inputs=DC1ST;1;1;;|DCENTRY;1;1;;|DCSTOP;4;2;;|DCSTOP;1;3;;|DCSTOP;1;5;;|DC1ST;1;6;;
+Required=DCH
